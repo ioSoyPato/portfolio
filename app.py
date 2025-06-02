@@ -128,7 +128,7 @@ if page == "🏠 About Me":
                 <h2 class="section-title">🎓 Education</h2>
                 <div class="experience-item">
                     <h3>B.S. in Data Science and Engineering</h3>
-                    <p>ITESO University | Expected Graduation: 2024</p>
+                    <p>ITESO University | Expected Graduation: 2025</p>
                     <p><strong>Key Achievements:</strong></p>
                     <ul>
                         <li>GPA: 3.9/4.0</li>
