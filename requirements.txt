@@ -1,0 +1,12 @@
+streamlit
+tensorflow-macos>=2.15.0
+numpy
+matplotlib
+pillow
+pandas
+scikit-learn
+textblob
+folium
+streamlit-folium
+seaborn
+setuptools<60.0.0

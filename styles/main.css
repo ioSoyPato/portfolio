@@ -1,0 +1,178 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #1E1E1E;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #2E4057;
+}
+
+/* Sidebar Customization */
+.sidebar .sidebar-content {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+}
+
+.sidebar .sidebar-content .stRadio > label {
+    font-weight: 500;
+    color: #2E4057;
+}
+
+/* Main Content Area */
+.main .block-container {
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+/* Project Cards */
+.project-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Button Styles */
+.stButton > button {
+    background-color: #2E4057;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1a2634;
+}
+
+/* File Uploader */
+.uploadedFile {
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.social-links img {
+    height: 24px;
+    transition: opacity 0.2s ease;
+}
+
+.social-links img:hover {
+    opacity: 0.8;
+}
+
+/* Code Blocks */
+pre {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Tables */
+.dataframe {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.dataframe th {
+    background-color: #f8f9fa;
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.dataframe td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Alert Messages */
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Image Styles */
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Profile Image */
+.profile-image {
+    border-radius: 50%;
+    border: 3px solid #2E4057;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Skills Tags */
+.skill-tag {
+    display: inline-block;
+    background: #e9ecef;
+    padding: 0.25rem 0.75rem;
+    border-radius: 16px;
+    margin: 0.25rem;
+    font-size: 0.875rem;
+    color: #2E4057;
+}
